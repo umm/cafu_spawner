@@ -1,0 +1,30 @@
+{
+  "name": "@umm/cafu_spawner",
+  "version": "0.0.0",
+  "description": "Spawn, kill, pooling game object",
+  "homepage": "https://github.com/umm/cafu_spawner",
+  "bugs": {
+    "url": "https://github.com/umm/cafu_spawner/issues"
+  },
+  "scripts": {
+    "umm:init": "umm-init",
+    "umm:generate_assembly_definition": "umm-generate_assembly_definition",
+    "umm:module:install": "umm-module-install",
+    "umm:module:uninstall": "umm-module-uninstall",
+    "postinstall": "npm run --silent umm:module:install",
+    "postuninstall": "npm run --silent umm:module:uninstall"
+  },
+  "author": "Takuma Maruyama",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:umm/cafu_spawner"
+  },
+  "files": [
+    "Assets"
+  ],
+  "dependencies": {
+    "@umm/scripts": "umm/scripts#^1.0.0"
+  },
+  "devDependencies": {}
+}

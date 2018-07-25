@@ -1,0 +1,12 @@
+{
+    "name": "umm@cafu_spawner",
+    "references": [
+        "umm@cafu_core",
+        "umm@cafu_flow",
+        "umm@unirx"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

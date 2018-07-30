@@ -1,0 +1,16 @@
+{
+    "name": "umm@cafu_spawner-Tests-EditTest",
+    "references": [
+        "umm@cafu_core",
+        "umm@cafu_spawner",
+        "umm@unirx"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

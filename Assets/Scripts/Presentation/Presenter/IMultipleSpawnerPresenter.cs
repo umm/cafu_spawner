@@ -16,11 +16,6 @@ namespace CAFU.Spawner.Presentation.Presenter
             presenter.SpawnObjectPoolUseCase.Load(key, container);
         }
 
-        public static IObjectPool<SpawnObject> GetObjectPool(this IMultipleSpawnerPresenter presenter, string key)
-        {
-            return presenter.SpawnObjectPoolUseCase.GetObjectPool(key);
-        }
-
         public static SpawnObject SpawnObject(this IMultipleSpawnerPresenter presenter, string key)
         {
             return presenter.SpawnObjectPoolUseCase.Spawn(key);

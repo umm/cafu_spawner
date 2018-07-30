@@ -6,13 +6,26 @@ namespace CAFU.Spawner.Domain.UseCase
 {
     public interface ISpawnObjectPoolUseCase : IUseCase
     {
+        /// <summary>
+        /// Set ObjectPool as specified key
+        /// </summary>
+        /// <param name="key">Key to specify objectpool</param>
+        /// <param name="spawneeContainer">Container to hold spawnee</param>
         void Load(string key, IObjectPool<SpawnObject> spawneeContainer);
 
+        /// <summary>
+        /// Spawn object by using key.
+        /// </summary>
+        /// <param name="key">Key to specify objectpool</param>
+        /// <returns></returns>
         SpawnObject Spawn(string key);
 
+        /// <summary>
+        /// Kill spawnee object
+        /// </summary>
+        /// <param name="key">Key to specify objectpool</param>
+        /// <param name="spawnee">Object to return into ObjectPool</param>
         void Kill(string key, SpawnObject spawnee);
-
-        IObjectPool<SpawnObject> GetObjectPool(string key);
     }
 
     public class SpawnObjectPoolUseCase : ISpawnObjectPoolUseCase
@@ -41,11 +54,6 @@ namespace CAFU.Spawner.Domain.UseCase
         public void Kill(string key, SpawnObject spawnee)
         {
             this.SpawnMap[key].ReturnObject(spawnee);
-        }
-
-        public IObjectPool<SpawnObject> GetObjectPool(string key)
-        {
-            return this.SpawnMap[key];
         }
     }
 }

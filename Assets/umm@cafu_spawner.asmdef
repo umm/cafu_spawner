@@ -3,7 +3,9 @@
     "references": [
         "umm@cafu_core",
         "umm@cafu_flow",
-        "umm@unirx"
+        "umm@cafu_generics",
+        "umm@unirx",
+        "umm@unirx_observablelifecyclemonobehaviour"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],

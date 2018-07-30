@@ -1,6 +1,6 @@
 {
   "name": "@umm/cafu_spawner",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Spawn, kill, pooling game object",
   "homepage": "https://github.com/umm/cafu_spawner",
   "bugs": {

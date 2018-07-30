@@ -27,6 +27,7 @@
     "@umm/cafu_core": "umm/cafu_core#^2.0.0",
     "@umm/cafu_flow": "umm/cafu_flow#^2.0.0",
     "@umm/cafu_generics": "umm/cafu_generics#^1.0.0",
+    "@umm/extra_unirx": "umm/extra_unirx#^1.0.0",
     "@umm/scripts": "umm/scripts#^1.0.0",
     "@umm/unirx": "umm/unirx#^2.0.0",
     "@umm/unirx_observablelifecyclemonobehaviour": "umm/unirx_observablelifecyclemonobehaviour#^1.0.0"

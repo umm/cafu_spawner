@@ -2,11 +2,11 @@
 
 ## What
 
-* 
+Manage spawning, killing, pooling of game objects.
 
 ## Requirement
 
-* 
+* see [package.json](package.json)
 
 ## Install
 
@@ -16,7 +16,7 @@ yarn add "umm-projects/cafu_spawner#^1.0.0"
 
 ## Usage
 
-* 
+* See [Example](Assets/Examples)
 
 ## License
 

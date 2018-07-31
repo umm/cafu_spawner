@@ -11,7 +11,7 @@ Manage spawning, killing, pooling of game objects.
 ## Install
 
 ```shell
-yarn add "umm-projects/cafu_spawner#^1.0.0"
+yarn add "umm/cafu_spawner#^1.0.0"
 ```
 
 ## Usage
